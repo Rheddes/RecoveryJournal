@@ -1,0 +1,243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ByteSerializer"
+- "ByteSerializerResult"
+- "ByteSerializerState"
+provides-nominal:
+- "5Async14ByteSerializerP"
+- "5Async20ByteSerializerResultO"
+- "5Async19ByteSerializerStateC"
+provides-member:
+- ["5Async14ByteSerializerP", ""]
+- ["5Async20ByteSerializerResultO", ""]
+- ["5Async19ByteSerializerStateC", ""]
+- ["5Async14ByteSerializerP", "translate"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AnyOutputStream"
+- "AssignmentPrecedence"
+- "ByteSerializer"
+- "ByteSerializerResult"
+- "ByteSerializerState"
+- !private "ConnectionContext"
+- !private "Promise"
+- !private "StringLiteralType"
+- "TranslatingStream"
+- "TranslatingStreamInput"
+- "TranslatingStreamOutput"
+- !private "TranslatingStreamResult"
+- "UInt8"
+- "UnsafeBufferPointer"
+- !private "fatalError"
+depends-member:
+- !private ["5Async15AnyOutputStreamC", "deinit"]
+- !private ["5Async15AnyOutputStreamC", "drain"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["5Async14ByteSerializerP", "ByteSerializerResult"]
+- ["5Async14ByteSerializerP", "ByteSerializerState"]
+- ["5Async14ByteSerializerP", "Input"]
+- ["5Async14ByteSerializerP", "Output"]
+- !private ["5Async14ByteSerializerP", "Promise"]
+- ["5Async14ByteSerializerP", "Self"]
+- ["5Async14ByteSerializerP", "SerializationState"]
+- ["5Async14ByteSerializerP", "TranslatingStreamInput"]
+- ["5Async14ByteSerializerP", "TranslatingStreamOutput"]
+- !private ["5Async14ByteSerializerP", "TranslatingStreamResult"]
+- ["5Async14ByteSerializerP", "UInt8"]
+- ["5Async14ByteSerializerP", "UnsafeBufferPointer"]
+- !private ["5Async14ByteSerializerP", "fatalError"]
+- ["5Async14ByteSerializerP", "serialize"]
+- ["5Async14ByteSerializerP", "state"]
+- ["5Async14ByteSerializerP", "translate"]
+- ["5Async20ByteSerializerResultO", "AnyOutputStream"]
+- ["5Async20ByteSerializerResultO", "S"]
+- ["5Async20ByteSerializerResultO", "UInt8"]
+- ["5Async20ByteSerializerResultO", "UnsafeBufferPointer"]
+- ["5Async20ByteSerializerResultO", "awaiting"]
+- ["5Async20ByteSerializerResultO", "complete"]
+- ["5Async20ByteSerializerResultO", "incomplete"]
+- !private ["5Async19ByteSerializerStateC", "AnyOutputStream"]
+- !private ["5Async19ByteSerializerStateC", "ConnectionContext"]
+- !private ["5Async19ByteSerializerStateC", "Promise"]
+- ["5Async19ByteSerializerStateC", "S"]
+- ["5Async19ByteSerializerStateC", "StreamingState"]
+- !private ["5Async19ByteSerializerStateC", "TranslatingStreamResult"]
+- !private ["5Async19ByteSerializerStateC", "UInt8"]
+- !private ["5Async19ByteSerializerStateC", "UnsafeBufferPointer"]
+- ["5Async19ByteSerializerStateC", "deinit"]
+- !private ["5Async19ByteSerializerStateC", "incompleteState"]
+- ["5Async19ByteSerializerStateC", "init"]
+- !private ["5Async19ByteSerializerStateC", "streaming"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["5Async17ConnectionContextP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["5Async11DrainStreamC", "catch"]
+- !private ["5Async11DrainStreamC", "finally"]
+- !private ["5Async11DrainStreamC", "upstream"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["5Async11InputStreamP", "catch"]
+- !private ["5Async11InputStreamP", "finally"]
+- !private ["5Async11InputStreamP", "upstream"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["5Async12OutputStreamP", "drain"]
+- !private ["5Async7PromiseC", "complete"]
+- !private ["5Async7PromiseC", "fail"]
+- !private ["5Async7PromiseC", "future"]
+- !private ["5Async7PromiseC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["5Async17TranslatingStreamP", "ByteSerializerResult"]
+- ["5Async17TranslatingStreamP", "ByteSerializerState"]
+- ["5Async17TranslatingStreamP", "Input"]
+- ["5Async17TranslatingStreamP", "Output"]
+- !private ["5Async17TranslatingStreamP", "Promise"]
+- ["5Async17TranslatingStreamP", "Self"]
+- ["5Async17TranslatingStreamP", "SerializationState"]
+- ["5Async17TranslatingStreamP", "TranslatingStreamInput"]
+- ["5Async17TranslatingStreamP", "TranslatingStreamOutput"]
+- !private ["5Async17TranslatingStreamP", "TranslatingStreamResult"]
+- ["5Async17TranslatingStreamP", "UInt8"]
+- ["5Async17TranslatingStreamP", "UnsafeBufferPointer"]
+- !private ["5Async17TranslatingStreamP", "fatalError"]
+- ["5Async17TranslatingStreamP", "serialize"]
+- ["5Async17TranslatingStreamP", "state"]
+- ["5Async17TranslatingStreamP", ""]
+- !private ["5Async22TranslatingStreamInputV", "close"]
+- !private ["5Async22TranslatingStreamInputV", "input"]
+- !private ["5Async23TranslatingStreamOutputV", "excess"]
+- !private ["5Async23TranslatingStreamOutputV", "init"]
+- !private ["5Async23TranslatingStreamOutputV", "insufficient"]
+- !private ["5Async23TranslatingStreamOutputV", "sufficient"]
+- !private ["5Async23TranslatingStreamResultO", "excess"]
+- !private ["5Async23TranslatingStreamResultO", "insufficient"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "5Async15AnyOutputStreamC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "5Async14ByteSerializerP"
+- "5Async20ByteSerializerResultO"
+- "5Async19ByteSerializerStateC"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "5Async17ConnectionContextP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "5Async11DrainStreamC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "5Async11InputStreamP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "5Async12OutputStreamP"
+- !private "5Async7PromiseC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "5Async17TranslatingStreamP"
+- !private "5Async22TranslatingStreamInputV"
+- !private "5Async23TranslatingStreamOutputV"
+- !private "5Async23TranslatingStreamResultO"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7f832ebfa95d8ba7aa0c28636ff8e35a"

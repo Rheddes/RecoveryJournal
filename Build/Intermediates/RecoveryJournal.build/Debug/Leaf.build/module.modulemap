@@ -1,0 +1,4 @@
+framework module Leaf {
+    header "Leaf-Swift.h"
+    requires objc
+}

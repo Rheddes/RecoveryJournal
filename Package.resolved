@@ -56,11 +56,65 @@
         }
       },
       {
+        "package": "Fluent",
+        "repositoryURL": "https://github.com/vapor/fluent.git",
+        "state": {
+          "branch": "beta",
+          "revision": "96250e39532726869e6f8ba701ddb9f0a9c1dc69",
+          "version": null
+        }
+      },
+      {
+        "package": "FluentMySQL",
+        "repositoryURL": "https://github.com/vapor/mysql-driver.git",
+        "state": {
+          "branch": "beta",
+          "revision": "c15cd418d61d54c37fa067541fe1d8ba8dbc6bed",
+          "version": null
+        }
+      },
+      {
+        "package": "Leaf",
+        "repositoryURL": "https://github.com/vapor/leaf.git",
+        "state": {
+          "branch": "beta",
+          "revision": "c0725ab94e28d0d306bdbfb427154487b574591c",
+          "version": null
+        }
+      },
+      {
+        "package": "MySQL",
+        "repositoryURL": "https://github.com/vapor/mysql.git",
+        "state": {
+          "branch": "beta",
+          "revision": "002049d5ebc8604160f2dc8c3a80d00c8a20ed75",
+          "version": null
+        }
+      },
+      {
         "package": "Service",
         "repositoryURL": "https://github.com/vapor/service.git",
         "state": {
           "branch": "beta",
           "revision": "ae18f072da312710506802e557dc552d3c68bd34",
+          "version": null
+        }
+      },
+      {
+        "package": "Sockets",
+        "repositoryURL": "https://github.com/vapor/sockets.git",
+        "state": {
+          "branch": "beta",
+          "revision": "7c24cfbe281d9dbb8454ee55c5f821c371e83715",
+          "version": null
+        }
+      },
+      {
+        "package": "TLS",
+        "repositoryURL": "https://github.com/vapor/tls.git",
+        "state": {
+          "branch": "beta",
+          "revision": "735ce0492a006cd7ef49b6691be2450bd8706c4c",
           "version": null
         }
       },

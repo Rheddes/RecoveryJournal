@@ -1,0 +1,33 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GeneralSQLSerializer"
+provides-nominal:
+- "3SQL20GeneralSQLSerializerC"
+provides-member:
+- ["3SQL20GeneralSQLSerializerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "GeneralSQLSerializer"
+- "SQLSerializer"
+depends-member:
+- ["3SQL20GeneralSQLSerializerC", "GeneralSQLSerializer"]
+- ["3SQL20GeneralSQLSerializerC", "deinit"]
+- ["3SQL20GeneralSQLSerializerC", "init"]
+- ["3SQL20GeneralSQLSerializerC", "makeEscapedString"]
+- ["3SQL20GeneralSQLSerializerC", "makePlaceholder"]
+- ["3SQL20GeneralSQLSerializerC", "serialize"]
+- ["3SQL20GeneralSQLSerializerC", "shared"]
+- ["3SQL13SQLSerializerP", "GeneralSQLSerializer"]
+- ["3SQL13SQLSerializerP", "init"]
+- ["3SQL13SQLSerializerP", "makeEscapedString"]
+- ["3SQL13SQLSerializerP", "makePlaceholder"]
+- ["3SQL13SQLSerializerP", "serialize"]
+- ["3SQL13SQLSerializerP", ""]
+depends-nominal:
+- "3SQL20GeneralSQLSerializerC"
+- "3SQL13SQLSerializerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "2d47f46bc9bb638c4289b92163880c1c"

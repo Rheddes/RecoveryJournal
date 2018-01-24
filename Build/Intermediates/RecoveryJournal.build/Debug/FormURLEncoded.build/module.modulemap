@@ -1,0 +1,4 @@
+framework module FormURLEncoded {
+    header "FormURLEncoded-Swift.h"
+    requires objc
+}

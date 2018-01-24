@@ -1,0 +1,83 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DrainStream"
+provides-nominal:
+- "5Async11DrainStreamC"
+provides-member:
+- ["5Async11DrainStreamC", ""]
+- ["5Async12OutputStreamP", ""]
+- ["5Async12OutputStreamP", "drain"]
+- ["5Async11DrainStreamC", "catch"]
+- ["5Async11DrainStreamC", "finally"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "ConnectionContext"
+- "DrainStream"
+- "Error"
+- "InputEvent"
+- "InputStream"
+- "OutputStream"
+- "Void"
+depends-member:
+- ["5Async11DrainStreamC", "ConnectionContext"]
+- ["5Async11DrainStreamC", "DrainStream"]
+- ["5Async11DrainStreamC", "Draining"]
+- ["5Async11DrainStreamC", "Error"]
+- ["5Async11DrainStreamC", "Input"]
+- ["5Async11DrainStreamC", "InputEvent"]
+- ["5Async11DrainStreamC", "OnClose"]
+- ["5Async11DrainStreamC", "OnError"]
+- ["5Async11DrainStreamC", "OnInput"]
+- ["5Async11DrainStreamC", "Void"]
+- ["5Async11DrainStreamC", "catch"]
+- ["5Async11DrainStreamC", "deinit"]
+- ["5Async11DrainStreamC", "finally"]
+- ["5Async11DrainStreamC", "init"]
+- ["5Async11DrainStreamC", "input"]
+- !private ["5Async11DrainStreamC", "onCloseClosure"]
+- !private ["5Async11DrainStreamC", "onErrorClosure"]
+- !private ["5Async11DrainStreamC", "onInputClosure"]
+- ["5Async11DrainStreamC", "upstream"]
+- ["5Async10InputEventO", "close"]
+- ["5Async10InputEventO", "connect"]
+- ["5Async10InputEventO", "error"]
+- ["5Async10InputEventO", "next"]
+- ["5Async11InputStreamP", "Input"]
+- ["5Async11InputStreamP", "OnClose"]
+- ["5Async11InputStreamP", "OnError"]
+- ["5Async11InputStreamP", "OnInput"]
+- !private ["5Async11InputStreamP", "init"]
+- ["5Async11InputStreamP", "input"]
+- !private ["5Async11InputStreamP", "onCloseClosure"]
+- !private ["5Async11InputStreamP", "onErrorClosure"]
+- !private ["5Async11InputStreamP", "onInputClosure"]
+- !private ["5Async11InputStreamP", "upstream"]
+- ["5Async11InputStreamP", ""]
+- ["5Async12OutputStreamP", "DrainStream"]
+- ["5Async12OutputStreamP", "Output"]
+- ["5Async12OutputStreamP", "drain"]
+- !private ["5Async12OutputStreamP", "stream"]
+depends-nominal:
+- "5Async11DrainStreamC"
+- "5Async10InputEventO"
+- "5Async11InputStreamP"
+- "5Async12OutputStreamP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2d1265635bc52f578ad0c1cc3fad4c9d"

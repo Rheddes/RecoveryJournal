@@ -1,0 +1,72 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataJoinMethod"
+provides-nominal:
+- "3SQL14DataJoinMethodO"
+provides-member:
+- ["3SQL14DataJoinMethodO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "DataJoinMethod"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["3SQL14DataJoinMethodO", "__derived_enum_equals"]
+- ["3SQL14DataJoinMethodO", "deinit"]
+- ["3SQL14DataJoinMethodO", "hashValue"]
+- ["3SQL14DataJoinMethodO", "inner"]
+- ["3SQL14DataJoinMethodO", "outer"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "3SQL14DataJoinMethodO"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d5277cb209bc0d2e0c94e6ec1f6066f7"

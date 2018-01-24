@@ -1,0 +1,4 @@
+framework module RecoveryJournalPackageDescription {
+    header "RecoveryJournalPackageDescription-Swift.h"
+    requires objc
+}

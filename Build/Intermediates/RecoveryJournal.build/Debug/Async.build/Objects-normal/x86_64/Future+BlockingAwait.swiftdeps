@@ -1,0 +1,152 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5Async6FutureV", ""]
+- ["5Async6FutureV", "blockingAwait"]
+- ["5Async6FutureV", "blockingAwait"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "=="
+- !private "AssignmentPrecedence"
+- !private "DispatchSemaphore"
+- "DispatchTime"
+- "DispatchTimeInterval"
+- "Future"
+- !private "FutureResult"
+- !private "PromiseTimeout"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["s10ComparableP", "distantFuture"]
+- !private ["s10ComparableP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "success"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "success"]
+- !private ["So14DispatchObjectC", "init"]
+- !private ["So14DispatchObjectC", "signal"]
+- !private ["So14DispatchObjectC", "wait"]
+- !private ["So17DispatchSemaphoreC", "init"]
+- !private ["So17DispatchSemaphoreC", "signal"]
+- !private ["So17DispatchSemaphoreC", "wait"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["8Dispatch0A13TimeoutResultO", "success"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "success"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "distantFuture"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "now"]
+- !private ["s9EquatableP", "signal"]
+- !private ["s9EquatableP", "success"]
+- !private ["s9EquatableP", "wait"]
+- !private ["s5ErrorP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "success"]
+- !private ["5Async6FutureV", "DispatchSemaphore"]
+- ["5Async6FutureV", "DispatchTime"]
+- ["5Async6FutureV", "DispatchTimeInterval"]
+- ["5Async6FutureV", "Expectation"]
+- !private ["5Async6FutureV", "FutureResult"]
+- !private ["5Async6FutureV", "PromiseTimeout"]
+- !private ["5Async6FutureV", "addAwaiter"]
+- ["5Async6FutureV", "blockingAwait"]
+- !private ["5Async6FutureV", "deinit"]
+- !private ["5Async12FutureResultO", "unwrap"]
+- !private ["5Async10FutureTypeP", "DispatchSemaphore"]
+- !private ["5Async10FutureTypeP", "DispatchTime"]
+- !private ["5Async10FutureTypeP", "Expectation"]
+- !private ["5Async10FutureTypeP", "PromiseTimeout"]
+- !private ["5Async10FutureTypeP", "addAwaiter"]
+- !private ["5Async10FutureTypeP", "blockingAwait"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "signal"]
+- !private ["s8HashableP", "success"]
+- !private ["s8HashableP", "wait"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "signal"]
+- !private ["So16NSObjectProtocolP", "wait"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["Sq", "success"]
+- !private ["5Async12OptionalTypeP", "success"]
+- !private ["5Async14PromiseTimeoutV", "deinit"]
+- !private ["5Async14PromiseTimeoutV", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "success"]
+- !private ["s26_OptionalNilComparisonTypeV", "success"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So17DispatchSemaphoreC"
+- !private "8Dispatch0A4TimeV"
+- !private "8Dispatch0A13TimeoutResultO"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "5Async6FutureV"
+- !private "5Async12FutureResultO"
+- !private "5Async10FutureTypeP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "5Async12OptionalTypeP"
+- !private "5Async14PromiseTimeoutV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5ff90824e938f03db2d8f78464651f10"

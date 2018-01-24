@@ -1,0 +1,51 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SchemaQuery"
+provides-nominal:
+- "3SQL11SchemaQueryV"
+provides-member:
+- ["3SQL11SchemaQueryV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "SchemaColumn"
+- "SchemaForeignKey"
+- "SchemaQuery"
+- "SchemaStatement"
+- "String"
+depends-member:
+- !private ["s9EquatableP", "alter"]
+- !private ["s9EquatableP", "create"]
+- !private ["s9EquatableP", "drop"]
+- !private ["s8HashableP", "alter"]
+- !private ["s8HashableP", "create"]
+- !private ["s8HashableP", "drop"]
+- ["3SQL11SchemaQueryV", "SchemaColumn"]
+- ["3SQL11SchemaQueryV", "SchemaForeignKey"]
+- ["3SQL11SchemaQueryV", "SchemaQuery"]
+- ["3SQL11SchemaQueryV", "SchemaStatement"]
+- ["3SQL11SchemaQueryV", "String"]
+- ["3SQL11SchemaQueryV", "addColumns"]
+- ["3SQL11SchemaQueryV", "addForeignKeys"]
+- ["3SQL11SchemaQueryV", "alter"]
+- ["3SQL11SchemaQueryV", "create"]
+- ["3SQL11SchemaQueryV", "deleteColumns"]
+- ["3SQL11SchemaQueryV", "deleteForeignKeys"]
+- ["3SQL11SchemaQueryV", "drop"]
+- ["3SQL11SchemaQueryV", "init"]
+- ["3SQL11SchemaQueryV", "statement"]
+- ["3SQL11SchemaQueryV", "table"]
+- !private ["3SQL15SchemaStatementO", "alter"]
+- !private ["3SQL15SchemaStatementO", "create"]
+- !private ["3SQL15SchemaStatementO", "drop"]
+depends-nominal:
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- "3SQL11SchemaQueryV"
+- !private "3SQL15SchemaStatementO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "49824b5b8a204919158146a8509b1a45"

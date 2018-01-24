@@ -1,0 +1,55 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FutureResultCallback"
+- "FutureType"
+provides-nominal:
+- "5Async10FutureTypeP"
+provides-member:
+- ["5Async10FutureTypeP", ""]
+- ["5Async6FutureV", ""]
+- ["5Async6FutureV", "chain"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Future"
+- "FutureResult"
+- "FutureResultCallback"
+- "FutureType"
+- "Promise"
+depends-member:
+- ["5Async6FutureV", "Expectation"]
+- ["5Async6FutureV", "Promise"]
+- !private ["5Async6FutureV", "addAwaiter"]
+- ["5Async6FutureV", "chain"]
+- !private ["5Async6FutureV", "deinit"]
+- !private ["5Async12FutureResultO", "error"]
+- !private ["5Async12FutureResultO", "expectation"]
+- ["5Async10FutureTypeP", "Expectation"]
+- ["5Async10FutureTypeP", "FutureResult"]
+- ["5Async10FutureTypeP", "FutureResultCallback"]
+- ["5Async10FutureTypeP", "Result"]
+- ["5Async10FutureTypeP", "addAwaiter"]
+- !private ["5Async7PromiseC", "complete"]
+- !private ["5Async7PromiseC", "fail"]
+depends-nominal:
+- "5Async6FutureV"
+- !private "5Async12FutureResultO"
+- "5Async10FutureTypeP"
+- !private "5Async7PromiseC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "20d9408a068cc3a881d51d1c9cfe1ea1"

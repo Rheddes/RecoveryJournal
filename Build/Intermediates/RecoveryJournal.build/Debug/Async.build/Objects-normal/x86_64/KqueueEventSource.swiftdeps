@@ -1,0 +1,427 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KqueueEventSourceType"
+- "KqueueEventSource"
+- "EVFILT_READ"
+- "EVFILT_WRITE"
+- "EVFILT_TIMER"
+- "EV_ADD"
+- "EV_ENABLE"
+- "EV_DISABLE"
+- "EV_DELETE"
+- "EV_EOF"
+- "EV_ERROR"
+provides-nominal:
+- "5Async21KqueueEventSourceTypeO"
+- "5Async17KqueueEventSourceC"
+- "SC6keventV"
+provides-member:
+- ["5Async21KqueueEventSourceTypeO", ""]
+- ["5Async17KqueueEventSourceC", ""]
+- ["SC6keventV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "<"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "CustomStringConvertible"
+- "Darwin"
+- "EVFILT_READ"
+- "EVFILT_TIMER"
+- "EVFILT_WRITE"
+- "EV_ADD"
+- "EV_DELETE"
+- "EV_DISABLE"
+- "EV_ENABLE"
+- "EV_EOF"
+- "EV_ERROR"
+- "EventCallback"
+- "EventSource"
+- "EventSourceState"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- !private "IntegerLiteralType"
+- "KqueueEventSource"
+- "KqueueEventSourceType"
+- "String"
+- !private "StringLiteralType"
+- !private "UInt"
+- "UInt16"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- !private "dup"
+- !private "errno"
+- !private "fatalError"
+- "kevent"
+- !private "strerror"
+- !private "|"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "deinitialize"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10ComparableP", "allocate"]
+- !private ["s10ComparableP", "deallocate"]
+- !private ["s10ComparableP", "deinitialize"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deinitialize"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "EVFILT_READ"]
+- !private ["s23CustomStringConvertibleP", "EVFILT_WRITE"]
+- !private ["s23CustomStringConvertibleP", "EV_ADD"]
+- !private ["s23CustomStringConvertibleP", "EV_DELETE"]
+- !private ["s23CustomStringConvertibleP", "EV_DISABLE"]
+- !private ["s23CustomStringConvertibleP", "EV_ENABLE"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "flags"]
+- !private ["s23CustomStringConvertibleP", "ident"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "udata"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allocate"]
+- ["s9EquatableP", "cancelled"]
+- !private ["s9EquatableP", "deallocate"]
+- !private ["s9EquatableP", "deinitialize"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- ["s9EquatableP", "resumed"]
+- ["s9EquatableP", "suspended"]
+- !private ["5Async11EventSourceP", "EVFILT_READ"]
+- !private ["5Async11EventSourceP", "EVFILT_TIMER"]
+- !private ["5Async11EventSourceP", "EVFILT_WRITE"]
+- !private ["5Async11EventSourceP", "EV_ADD"]
+- !private ["5Async11EventSourceP", "EV_DELETE"]
+- !private ["5Async11EventSourceP", "EV_DISABLE"]
+- !private ["5Async11EventSourceP", "EV_ENABLE"]
+- !private ["5Async11EventSourceP", "String"]
+- !private ["5Async11EventSourceP", "UInt"]
+- !private ["5Async11EventSourceP", "UnsafeMutablePointer"]
+- !private ["5Async11EventSourceP", "UnsafeMutableRawPointer"]
+- !private ["5Async11EventSourceP", "callback"]
+- ["5Async11EventSourceP", "cancel"]
+- !private ["5Async11EventSourceP", "dup"]
+- !private ["5Async11EventSourceP", "errno"]
+- !private ["5Async11EventSourceP", "event"]
+- !private ["5Async11EventSourceP", "fatalError"]
+- !private ["5Async11EventSourceP", "kevent"]
+- !private ["5Async11EventSourceP", "kq"]
+- !private ["5Async11EventSourceP", "pointer"]
+- ["5Async11EventSourceP", "resume"]
+- ["5Async11EventSourceP", "state"]
+- !private ["5Async11EventSourceP", "strerror"]
+- ["5Async11EventSourceP", "suspend"]
+- !private ["5Async11EventSourceP", "update"]
+- ["5Async11EventSourceP", ""]
+- ["5Async16EventSourceStateO", "cancelled"]
+- ["5Async16EventSourceStateO", "resumed"]
+- ["5Async16EventSourceStateO", "suspended"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "allocate"]
+- ["s8HashableP", "cancelled"]
+- !private ["s8HashableP", "deallocate"]
+- !private ["s8HashableP", "deinitialize"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- ["s8HashableP", "resumed"]
+- ["s8HashableP", "suspended"]
+- ["s5Int16V", "init"]
+- ["5Async17KqueueEventSourceC", "Bool"]
+- !private ["5Async17KqueueEventSourceC", "EVFILT_READ"]
+- !private ["5Async17KqueueEventSourceC", "EVFILT_TIMER"]
+- !private ["5Async17KqueueEventSourceC", "EVFILT_WRITE"]
+- !private ["5Async17KqueueEventSourceC", "EV_ADD"]
+- !private ["5Async17KqueueEventSourceC", "EV_DELETE"]
+- !private ["5Async17KqueueEventSourceC", "EV_DISABLE"]
+- !private ["5Async17KqueueEventSourceC", "EV_ENABLE"]
+- ["5Async17KqueueEventSourceC", "EventCallback"]
+- ["5Async17KqueueEventSourceC", "EventSourceState"]
+- ["5Async17KqueueEventSourceC", "Int32"]
+- ["5Async17KqueueEventSourceC", "KqueueEventSource"]
+- ["5Async17KqueueEventSourceC", "KqueueEventSourceType"]
+- !private ["5Async17KqueueEventSourceC", "String"]
+- !private ["5Async17KqueueEventSourceC", "UInt"]
+- ["5Async17KqueueEventSourceC", "UnsafeMutablePointer"]
+- !private ["5Async17KqueueEventSourceC", "UnsafeMutableRawPointer"]
+- !private ["5Async17KqueueEventSourceC", "callback"]
+- ["5Async17KqueueEventSourceC", "cancel"]
+- ["5Async17KqueueEventSourceC", "deinit"]
+- !private ["5Async17KqueueEventSourceC", "dup"]
+- !private ["5Async17KqueueEventSourceC", "errno"]
+- !private ["5Async17KqueueEventSourceC", "event"]
+- !private ["5Async17KqueueEventSourceC", "fatalError"]
+- ["5Async17KqueueEventSourceC", "init"]
+- ["5Async17KqueueEventSourceC", "kevent"]
+- !private ["5Async17KqueueEventSourceC", "kq"]
+- !private ["5Async17KqueueEventSourceC", "pointer"]
+- ["5Async17KqueueEventSourceC", "resume"]
+- ["5Async17KqueueEventSourceC", "signal"]
+- ["5Async17KqueueEventSourceC", "state"]
+- !private ["5Async17KqueueEventSourceC", "strerror"]
+- ["5Async17KqueueEventSourceC", "suspend"]
+- !private ["5Async17KqueueEventSourceC", "update"]
+- ["5Async21KqueueEventSourceTypeO", "Int"]
+- ["5Async21KqueueEventSourceTypeO", "read"]
+- ["5Async21KqueueEventSourceTypeO", "timer"]
+- ["5Async21KqueueEventSourceTypeO", "write"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- ["s13SignedIntegerP", "init"]
+- ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "allocate"]
+- !private ["s10StrideableP", "deallocate"]
+- !private ["s10StrideableP", "deinitialize"]
+- ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "initialize"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Su", "init"]
+- ["s6UInt16V", "init"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "initialize"]
+- !private ["Sv", "init"]
+- ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "joined"]
+- ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "joined"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "joined"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "deinitialize"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "joined"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "joined"]
+- !private ["s11_StrideableP", "allocate"]
+- !private ["s11_StrideableP", "deallocate"]
+- !private ["s11_StrideableP", "deinitialize"]
+- ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "initialize"]
+- ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["SC6keventV", "EVFILT_READ"]
+- !private ["SC6keventV", "EVFILT_WRITE"]
+- !private ["SC6keventV", "EV_ADD"]
+- !private ["SC6keventV", "EV_DELETE"]
+- !private ["SC6keventV", "EV_DISABLE"]
+- !private ["SC6keventV", "EV_ENABLE"]
+- ["SC6keventV", "String"]
+- !private ["SC6keventV", "data"]
+- ["SC6keventV", "deinit"]
+- ["SC6keventV", "description"]
+- !private ["SC6keventV", "filter"]
+- !private ["SC6keventV", "flags"]
+- !private ["SC6keventV", "ident"]
+- !private ["SC6keventV", "init"]
+- !private ["SC6keventV", "udata"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "5Async11EventSourceP"
+- "5Async16EventSourceStateO"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "s5Int16V"
+- "5Async17KqueueEventSourceC"
+- "5Async21KqueueEventSourceTypeO"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- "s6UInt16V"
+- !private "Sp"
+- !private "Sv"
+- "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+- "SC6keventV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d81838d0612ec85d48b73639c768d80d"

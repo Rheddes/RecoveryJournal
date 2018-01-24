@@ -1,0 +1,24 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataColumn"
+provides-nominal:
+- "3SQL10DataColumnV"
+provides-member:
+- ["3SQL10DataColumnV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DataColumn"
+- "String"
+depends-member:
+- ["3SQL10DataColumnV", "String"]
+- ["3SQL10DataColumnV", "init"]
+- ["3SQL10DataColumnV", "name"]
+- ["3SQL10DataColumnV", "table"]
+depends-nominal:
+- "3SQL10DataColumnV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "b936fa8fb317b8ce07ae33bdddce71cf"

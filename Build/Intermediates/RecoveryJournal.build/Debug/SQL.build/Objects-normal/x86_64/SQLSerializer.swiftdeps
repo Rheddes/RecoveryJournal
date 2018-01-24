@@ -1,0 +1,49 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLSerializer"
+provides-nominal:
+- "3SQL13SQLSerializerP"
+provides-member:
+- ["3SQL13SQLSerializerP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "DataColumn"
+- "DataComputed"
+- "DataJoin"
+- "DataOrderBy"
+- "DataPredicate"
+- "DataPredicateComparison"
+- "DataPredicateGroup"
+- "DataPredicateGroupRelation"
+- "DataQuery"
+- "OrderByDirection"
+- "SQLSerializer"
+- "SchemaColumn"
+- "SchemaForeignKey"
+- "SchemaQuery"
+- "String"
+depends-member:
+- ["3SQL13SQLSerializerP", "DataColumn"]
+- ["3SQL13SQLSerializerP", "DataComputed"]
+- ["3SQL13SQLSerializerP", "DataJoin"]
+- ["3SQL13SQLSerializerP", "DataOrderBy"]
+- ["3SQL13SQLSerializerP", "DataPredicate"]
+- ["3SQL13SQLSerializerP", "DataPredicateComparison"]
+- ["3SQL13SQLSerializerP", "DataPredicateGroup"]
+- ["3SQL13SQLSerializerP", "DataPredicateGroupRelation"]
+- ["3SQL13SQLSerializerP", "DataQuery"]
+- ["3SQL13SQLSerializerP", "OrderByDirection"]
+- ["3SQL13SQLSerializerP", "SchemaColumn"]
+- ["3SQL13SQLSerializerP", "SchemaForeignKey"]
+- ["3SQL13SQLSerializerP", "SchemaQuery"]
+- ["3SQL13SQLSerializerP", "String"]
+- ["3SQL13SQLSerializerP", "makeEscapedString"]
+- ["3SQL13SQLSerializerP", "makePlaceholder"]
+- ["3SQL13SQLSerializerP", "serialize"]
+depends-nominal:
+- "3SQL13SQLSerializerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "4a721fd43508c073dbbb775ac7ba75b5"

@@ -1,0 +1,83 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataPredicateComparison"
+provides-nominal:
+- "3SQL23DataPredicateComparisonO"
+provides-member:
+- ["3SQL23DataPredicateComparisonO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "DataPredicateComparison"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["3SQL23DataPredicateComparisonO", "__derived_enum_equals"]
+- ["3SQL23DataPredicateComparisonO", "between"]
+- ["3SQL23DataPredicateComparisonO", "deinit"]
+- ["3SQL23DataPredicateComparisonO", "equal"]
+- ["3SQL23DataPredicateComparisonO", "greaterThan"]
+- ["3SQL23DataPredicateComparisonO", "greaterThanOrEqual"]
+- ["3SQL23DataPredicateComparisonO", "hashValue"]
+- ["3SQL23DataPredicateComparisonO", "in"]
+- ["3SQL23DataPredicateComparisonO", "lessThan"]
+- ["3SQL23DataPredicateComparisonO", "lessThanOrEqual"]
+- ["3SQL23DataPredicateComparisonO", "like"]
+- ["3SQL23DataPredicateComparisonO", "notEqual"]
+- ["3SQL23DataPredicateComparisonO", "notIn"]
+- ["3SQL23DataPredicateComparisonO", "notLike"]
+- ["3SQL23DataPredicateComparisonO", "notNull"]
+- ["3SQL23DataPredicateComparisonO", "null"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "3SQL23DataPredicateComparisonO"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "66c8d863c933eb33a0eae04250f56299"

@@ -1,0 +1,4 @@
+framework module AppleTLS {
+    header "AppleTLS-Swift.h"
+    requires objc
+}

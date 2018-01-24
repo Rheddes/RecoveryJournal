@@ -1,0 +1,258 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TranslatingStream"
+- "TranslatingStreamInput"
+- "TranslatingStreamCondition"
+- "TranslatingStreamOutput"
+- "TranslatingStreamResult"
+- "TranslatingStreamWrapper"
+provides-nominal:
+- "5Async17TranslatingStreamP"
+- "5Async22TranslatingStreamInputV"
+- "5Async26TranslatingStreamConditionO"
+- "5Async23TranslatingStreamOutputV"
+- "5Async23TranslatingStreamResultO"
+- "5Async24TranslatingStreamWrapperC"
+provides-member:
+- ["5Async17TranslatingStreamP", ""]
+- ["5Async22TranslatingStreamInputV", ""]
+- ["5Async26TranslatingStreamConditionO", ""]
+- ["5Async23TranslatingStreamOutputV", ""]
+- ["5Async23TranslatingStreamResultO", ""]
+- ["5Async24TranslatingStreamWrapperC", ""]
+- ["5Async17TranslatingStreamP", "stream"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private "-="
+- !private ">"
+- "AnyInputStream"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ConnectionContext"
+- "ConnectionEvent"
+- "EventLoop"
+- !private "FloatLiteralType"
+- "Future"
+- "InputEvent"
+- "InputStream"
+- !private "IntegerLiteralType"
+- "Stream"
+- "TranslatingStream"
+- "TranslatingStreamCondition"
+- "TranslatingStreamInput"
+- "TranslatingStreamOutput"
+- "TranslatingStreamResult"
+- "TranslatingStreamWrapper"
+- "UInt"
+- "Worker"
+depends-member:
+- !private ["5Async14AnyInputStreamC", "close"]
+- !private ["5Async14AnyInputStreamC", "deinit"]
+- !private ["5Async14AnyInputStreamC", "error"]
+- !private ["5Async14AnyInputStreamC", "init"]
+- !private ["5Async14AnyInputStreamC", "next"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["5Async17ConnectionContextP", "AnyInputStream"]
+- ["5Async17ConnectionContextP", "Input"]
+- ["5Async17ConnectionContextP", "Output"]
+- !private ["5Async17ConnectionContextP", "TranslatingStreamInput"]
+- !private ["5Async17ConnectionContextP", "cancel"]
+- !private ["5Async17ConnectionContextP", "close"]
+- ["5Async17ConnectionContextP", "connection"]
+- !private ["5Async17ConnectionContextP", "currentInput"]
+- !private ["5Async17ConnectionContextP", "downstream"]
+- !private ["5Async17ConnectionContextP", "downstreamDemand"]
+- !private ["5Async17ConnectionContextP", "error"]
+- !private ["5Async17ConnectionContextP", "eventLoop"]
+- !private ["5Async17ConnectionContextP", "init"]
+- ["5Async17ConnectionContextP", "input"]
+- ["5Async17ConnectionContextP", "output"]
+- !private ["5Async17ConnectionContextP", "request"]
+- !private ["5Async17ConnectionContextP", "translator"]
+- !private ["5Async17ConnectionContextP", "update"]
+- !private ["5Async17ConnectionContextP", "updateCheckingDemand"]
+- !private ["5Async17ConnectionContextP", "upstream"]
+- !private ["5Async17ConnectionContextP", "upstreamIsClosed"]
+- ["5Async17ConnectionContextP", ""]
+- ["5Async15ConnectionEventO", "cancel"]
+- ["5Async15ConnectionEventO", "request"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["5Async6FutureV", "catch"]
+- !private ["5Async6FutureV", "do"]
+- !private ["5Async6FutureV", "flatMap"]
+- !private ["5Async6FutureV", "init"]
+- !private ["5Async6FutureV", "map"]
+- !private ["5Async10FutureTypeP", "catch"]
+- !private ["5Async10FutureTypeP", "do"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "init"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["5Async10InputEventO", "close"]
+- ["5Async10InputEventO", "connect"]
+- ["5Async10InputEventO", "error"]
+- ["5Async10InputEventO", "next"]
+- !private ["5Async11InputStreamP", "AnyInputStream"]
+- ["5Async11InputStreamP", "Input"]
+- ["5Async11InputStreamP", "Output"]
+- !private ["5Async11InputStreamP", "TranslatingStreamInput"]
+- !private ["5Async11InputStreamP", "close"]
+- !private ["5Async11InputStreamP", "connect"]
+- ["5Async11InputStreamP", "connection"]
+- !private ["5Async11InputStreamP", "currentInput"]
+- !private ["5Async11InputStreamP", "downstream"]
+- !private ["5Async11InputStreamP", "downstreamDemand"]
+- !private ["5Async11InputStreamP", "error"]
+- !private ["5Async11InputStreamP", "eventLoop"]
+- !private ["5Async11InputStreamP", "init"]
+- ["5Async11InputStreamP", "input"]
+- !private ["5Async11InputStreamP", "next"]
+- ["5Async11InputStreamP", "output"]
+- !private ["5Async11InputStreamP", "translator"]
+- !private ["5Async11InputStreamP", "update"]
+- !private ["5Async11InputStreamP", "updateCheckingDemand"]
+- !private ["5Async11InputStreamP", "upstream"]
+- !private ["5Async11InputStreamP", "upstreamIsClosed"]
+- ["5Async11InputStreamP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["5Async12OutputStreamP", "AnyInputStream"]
+- ["5Async12OutputStreamP", "Input"]
+- ["5Async12OutputStreamP", "Output"]
+- !private ["5Async12OutputStreamP", "TranslatingStreamInput"]
+- !private ["5Async12OutputStreamP", "close"]
+- ["5Async12OutputStreamP", "connection"]
+- !private ["5Async12OutputStreamP", "currentInput"]
+- !private ["5Async12OutputStreamP", "downstream"]
+- !private ["5Async12OutputStreamP", "downstreamDemand"]
+- !private ["5Async12OutputStreamP", "error"]
+- !private ["5Async12OutputStreamP", "eventLoop"]
+- !private ["5Async12OutputStreamP", "init"]
+- ["5Async12OutputStreamP", "input"]
+- ["5Async12OutputStreamP", "output"]
+- !private ["5Async12OutputStreamP", "translator"]
+- !private ["5Async12OutputStreamP", "update"]
+- !private ["5Async12OutputStreamP", "updateCheckingDemand"]
+- !private ["5Async12OutputStreamP", "upstream"]
+- !private ["5Async12OutputStreamP", "upstreamIsClosed"]
+- ["5Async12OutputStreamP", ""]
+- ["5Async17TranslatingStreamP", "Input"]
+- ["5Async17TranslatingStreamP", "Output"]
+- ["5Async17TranslatingStreamP", "Self"]
+- ["5Async17TranslatingStreamP", "TranslatingStreamInput"]
+- ["5Async17TranslatingStreamP", "TranslatingStreamOutput"]
+- ["5Async17TranslatingStreamP", "TranslatingStreamWrapper"]
+- ["5Async17TranslatingStreamP", "Worker"]
+- ["5Async17TranslatingStreamP", "stream"]
+- ["5Async17TranslatingStreamP", "translate"]
+- ["5Async26TranslatingStreamConditionO", "Input"]
+- ["5Async26TranslatingStreamConditionO", "close"]
+- ["5Async26TranslatingStreamConditionO", "next"]
+- ["5Async22TranslatingStreamInputV", "Bool"]
+- ["5Async22TranslatingStreamInputV", "Input"]
+- ["5Async22TranslatingStreamInputV", "TranslatingStreamCondition"]
+- ["5Async22TranslatingStreamInputV", "close"]
+- ["5Async22TranslatingStreamInputV", "condition"]
+- ["5Async22TranslatingStreamInputV", "init"]
+- ["5Async22TranslatingStreamInputV", "input"]
+- ["5Async22TranslatingStreamInputV", "shouldClose"]
+- ["5Async23TranslatingStreamOutputV", "Future"]
+- ["5Async23TranslatingStreamOutputV", "Output"]
+- ["5Async23TranslatingStreamOutputV", "TranslatingStreamOutput"]
+- ["5Async23TranslatingStreamOutputV", "TranslatingStreamResult"]
+- ["5Async23TranslatingStreamOutputV", "excess"]
+- ["5Async23TranslatingStreamOutputV", "init"]
+- ["5Async23TranslatingStreamOutputV", "insufficient"]
+- ["5Async23TranslatingStreamOutputV", "map"]
+- ["5Async23TranslatingStreamOutputV", "result"]
+- ["5Async23TranslatingStreamOutputV", "sufficient"]
+- ["5Async23TranslatingStreamResultO", "Output"]
+- ["5Async23TranslatingStreamResultO", "excess"]
+- ["5Async23TranslatingStreamResultO", "insufficient"]
+- ["5Async23TranslatingStreamResultO", "sufficient"]
+- ["5Async24TranslatingStreamWrapperC", "AnyInputStream"]
+- ["5Async24TranslatingStreamWrapperC", "Bool"]
+- ["5Async24TranslatingStreamWrapperC", "ConnectionContext"]
+- ["5Async24TranslatingStreamWrapperC", "ConnectionEvent"]
+- ["5Async24TranslatingStreamWrapperC", "EventLoop"]
+- ["5Async24TranslatingStreamWrapperC", "Input"]
+- ["5Async24TranslatingStreamWrapperC", "InputEvent"]
+- ["5Async24TranslatingStreamWrapperC", "InputStream"]
+- ["5Async24TranslatingStreamWrapperC", "Output"]
+- !private ["5Async24TranslatingStreamWrapperC", "TranslatingStreamInput"]
+- !private ["5Async24TranslatingStreamWrapperC", "TranslatingStreamOutput"]
+- ["5Async24TranslatingStreamWrapperC", "Translator"]
+- ["5Async24TranslatingStreamWrapperC", "UInt"]
+- ["5Async24TranslatingStreamWrapperC", "Worker"]
+- !private ["5Async24TranslatingStreamWrapperC", "close"]
+- ["5Async24TranslatingStreamWrapperC", "connection"]
+- !private ["5Async24TranslatingStreamWrapperC", "currentInput"]
+- ["5Async24TranslatingStreamWrapperC", "deinit"]
+- !private ["5Async24TranslatingStreamWrapperC", "downstream"]
+- !private ["5Async24TranslatingStreamWrapperC", "downstreamDemand"]
+- !private ["5Async24TranslatingStreamWrapperC", "error"]
+- !private ["5Async24TranslatingStreamWrapperC", "eventLoop"]
+- ["5Async24TranslatingStreamWrapperC", "init"]
+- ["5Async24TranslatingStreamWrapperC", "input"]
+- ["5Async24TranslatingStreamWrapperC", "output"]
+- !private ["5Async24TranslatingStreamWrapperC", "translator"]
+- !private ["5Async24TranslatingStreamWrapperC", "update"]
+- !private ["5Async24TranslatingStreamWrapperC", "updateCheckingDemand"]
+- !private ["5Async24TranslatingStreamWrapperC", "upstream"]
+- !private ["5Async24TranslatingStreamWrapperC", "upstreamIsClosed"]
+- !private ["5Async6WorkerP", "eventLoop"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "5Async14AnyInputStreamC"
+- !private "Sb"
+- "5Async17ConnectionContextP"
+- "5Async15ConnectionEventO"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "5Async6FutureV"
+- !private "5Async10FutureTypeP"
+- !private "s8HashableP"
+- "5Async10InputEventO"
+- "5Async11InputStreamP"
+- !private "s25LosslessStringConvertibleP"
+- "5Async12OutputStreamP"
+- "5Async17TranslatingStreamP"
+- "5Async26TranslatingStreamConditionO"
+- "5Async22TranslatingStreamInputV"
+- "5Async23TranslatingStreamOutputV"
+- "5Async23TranslatingStreamResultO"
+- "5Async24TranslatingStreamWrapperC"
+- !private "5Async6WorkerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e970ec0b187e4beda2a7aaf2ea0253d6"

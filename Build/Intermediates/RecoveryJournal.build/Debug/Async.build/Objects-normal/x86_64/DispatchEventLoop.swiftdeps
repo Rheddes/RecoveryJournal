@@ -1,0 +1,355 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DispatchEventLoop"
+provides-nominal:
+- "5Async17DispatchEventLoopC"
+provides-member:
+- ["5Async17DispatchEventLoopC", ""]
+provides-dynamic-lookup:
+- "keepAlive"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "DispatchEventLoop"
+- "DispatchEventSource"
+- "DispatchQueue"
+- !private "DispatchSource"
+- "EventCallback"
+- "EventLoop"
+- "EventSource"
+- "Int"
+- "Int32"
+- !private "RunLoop"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeInterval"
+- !private "Timer"
+- !private "fatalError"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "makeReadSource"]
+- !private ["s7CVarArgP", "makeWriteSource"]
+- !private ["s7CVarArgP", "run"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "greatestFiniteMagnitude"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "makeReadSource"]
+- !private ["s28CustomDebugStringConvertibleP", "makeWriteSource"]
+- !private ["s28CustomDebugStringConvertibleP", "run"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "greatestFiniteMagnitude"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "makeReadSource"]
+- !private ["s23CustomStringConvertibleP", "makeWriteSource"]
+- !private ["s23CustomStringConvertibleP", "run"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s9DecodableP", "greatestFiniteMagnitude"]
+- !private ["s9DecodableP", "init"]
+- ["5Async17DispatchEventLoopC", "DispatchEventSource"]
+- ["5Async17DispatchEventLoopC", "DispatchQueue"]
+- !private ["5Async17DispatchEventLoopC", "DispatchSource"]
+- ["5Async17DispatchEventLoopC", "EventCallback"]
+- ["5Async17DispatchEventLoopC", "EventSource"]
+- ["5Async17DispatchEventLoopC", "Int"]
+- ["5Async17DispatchEventLoopC", "Int32"]
+- !private ["5Async17DispatchEventLoopC", "RunLoop"]
+- ["5Async17DispatchEventLoopC", "Source"]
+- ["5Async17DispatchEventLoopC", "String"]
+- !private ["5Async17DispatchEventLoopC", "TimeInterval"]
+- !private ["5Async17DispatchEventLoopC", "Timer"]
+- ["5Async17DispatchEventLoopC", "deinit"]
+- ["5Async17DispatchEventLoopC", "eventLoop"]
+- !private ["5Async17DispatchEventLoopC", "fatalError"]
+- ["5Async17DispatchEventLoopC", "init"]
+- !private ["5Async17DispatchEventLoopC", "keepAlive"]
+- ["5Async17DispatchEventLoopC", "label"]
+- ["5Async17DispatchEventLoopC", "onReadable"]
+- ["5Async17DispatchEventLoopC", "onTimeout"]
+- ["5Async17DispatchEventLoopC", "onWritable"]
+- !private ["5Async17DispatchEventLoopC", "queue"]
+- ["5Async17DispatchEventLoopC", "run"]
+- !private ["5Async19DispatchEventSourceC", "deinit"]
+- !private ["5Async19DispatchEventSourceC", "init"]
+- !private ["So14DispatchObjectC", "label"]
+- !private ["So14DispatchObjectC", "makeReadSource"]
+- !private ["So14DispatchObjectC", "makeWriteSource"]
+- !private ["So13DispatchQueueC", "init"]
+- !private ["So13DispatchQueueC", "label"]
+- !private ["So14DispatchSourceC", "makeReadSource"]
+- !private ["So14DispatchSourceC", "makeWriteSource"]
+- !private ["So30DispatchSourceFileSystemObjectP", "makeReadSource"]
+- !private ["So30DispatchSourceFileSystemObjectP", "makeWriteSource"]
+- !private ["So25DispatchSourceMachReceiveP", "makeReadSource"]
+- !private ["So25DispatchSourceMachReceiveP", "makeWriteSource"]
+- !private ["So22DispatchSourceMachSendP", "makeReadSource"]
+- !private ["So22DispatchSourceMachSendP", "makeWriteSource"]
+- !private ["So28DispatchSourceMemoryPressureP", "makeReadSource"]
+- !private ["So28DispatchSourceMemoryPressureP", "makeWriteSource"]
+- !private ["So21DispatchSourceProcessP", "makeReadSource"]
+- !private ["So21DispatchSourceProcessP", "makeWriteSource"]
+- !private ["So22DispatchSourceProtocolP", "makeReadSource"]
+- !private ["So22DispatchSourceProtocolP", "makeWriteSource"]
+- !private ["So22DispatchSourceProtocolP", "setCancelHandler"]
+- !private ["So22DispatchSourceProtocolP", "setEventHandler"]
+- !private ["So18DispatchSourceReadP", "makeReadSource"]
+- !private ["So18DispatchSourceReadP", "makeWriteSource"]
+- !private ["So18DispatchSourceReadP", "setCancelHandler"]
+- !private ["So18DispatchSourceReadP", "setEventHandler"]
+- !private ["So20DispatchSourceSignalP", "makeReadSource"]
+- !private ["So20DispatchSourceSignalP", "makeWriteSource"]
+- !private ["So19DispatchSourceTimerP", "makeReadSource"]
+- !private ["So19DispatchSourceTimerP", "makeWriteSource"]
+- !private ["So25DispatchSourceUserDataAddP", "makeReadSource"]
+- !private ["So25DispatchSourceUserDataAddP", "makeWriteSource"]
+- !private ["So24DispatchSourceUserDataOrP", "makeReadSource"]
+- !private ["So24DispatchSourceUserDataOrP", "makeWriteSource"]
+- !private ["So29DispatchSourceUserDataReplaceP", "makeReadSource"]
+- !private ["So29DispatchSourceUserDataReplaceP", "makeWriteSource"]
+- !private ["So19DispatchSourceWriteP", "makeReadSource"]
+- !private ["So19DispatchSourceWriteP", "makeWriteSource"]
+- !private ["So19DispatchSourceWriteP", "setCancelHandler"]
+- !private ["So19DispatchSourceWriteP", "setEventHandler"]
+- !private ["Sd", "greatestFiniteMagnitude"]
+- !private ["s9EncodableP", "greatestFiniteMagnitude"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "greatestFiniteMagnitude"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "label"]
+- !private ["s9EquatableP", "makeReadSource"]
+- !private ["s9EquatableP", "makeWriteSource"]
+- !private ["s9EquatableP", "run"]
+- !private ["s9EquatableP", "scheduledTimer"]
+- !private ["5Async9EventLoopP", "DispatchEventSource"]
+- !private ["5Async9EventLoopP", "DispatchQueue"]
+- !private ["5Async9EventLoopP", "DispatchSource"]
+- !private ["5Async9EventLoopP", "RunLoop"]
+- !private ["5Async9EventLoopP", "TimeInterval"]
+- !private ["5Async9EventLoopP", "Timer"]
+- ["5Async9EventLoopP", "eventLoop"]
+- !private ["5Async9EventLoopP", "fatalError"]
+- ["5Async9EventLoopP", "init"]
+- !private ["5Async9EventLoopP", "keepAlive"]
+- ["5Async9EventLoopP", "label"]
+- ["5Async9EventLoopP", "onReadable"]
+- ["5Async9EventLoopP", "onTimeout"]
+- ["5Async9EventLoopP", "onWritable"]
+- !private ["5Async9EventLoopP", "queue"]
+- ["5Async9EventLoopP", "run"]
+- ["5Async9EventLoopP", ""]
+- !private ["5Async11EventSourceP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "greatestFiniteMagnitude"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "label"]
+- !private ["s8HashableP", "makeReadSource"]
+- !private ["s8HashableP", "makeWriteSource"]
+- !private ["s8HashableP", "run"]
+- !private ["s8HashableP", "scheduledTimer"]
+- !private ["s25LosslessStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "makeReadSource"]
+- !private ["So8NSObjectC", "makeWriteSource"]
+- !private ["So8NSObjectC", "run"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "label"]
+- !private ["So16NSObjectProtocolP", "makeReadSource"]
+- !private ["So16NSObjectProtocolP", "makeWriteSource"]
+- !private ["So16NSObjectProtocolP", "run"]
+- !private ["So16NSObjectProtocolP", "scheduledTimer"]
+- !private ["So16NSObjectProtocolP", "setCancelHandler"]
+- !private ["So16NSObjectProtocolP", "setEventHandler"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "greatestFiniteMagnitude"]
+- !private ["So9OS_objectC", "label"]
+- !private ["So9OS_objectC", "makeReadSource"]
+- !private ["So9OS_objectC", "makeWriteSource"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["So7RunLoopC", "current"]
+- !private ["So7RunLoopC", "run"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "greatestFiniteMagnitude"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So5TimerC", "scheduledTimer"]
+- !private ["5Async6WorkerP", "DispatchEventSource"]
+- !private ["5Async6WorkerP", "DispatchQueue"]
+- !private ["5Async6WorkerP", "DispatchSource"]
+- !private ["5Async6WorkerP", "RunLoop"]
+- !private ["5Async6WorkerP", "TimeInterval"]
+- !private ["5Async6WorkerP", "Timer"]
+- ["5Async6WorkerP", "eventLoop"]
+- !private ["5Async6WorkerP", "fatalError"]
+- ["5Async6WorkerP", "init"]
+- !private ["5Async6WorkerP", "keepAlive"]
+- ["5Async6WorkerP", "label"]
+- ["5Async6WorkerP", "onReadable"]
+- ["5Async6WorkerP", "onTimeout"]
+- ["5Async6WorkerP", "onWritable"]
+- !private ["5Async6WorkerP", "queue"]
+- ["5Async6WorkerP", "run"]
+- ["5Async6WorkerP", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeReadSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeWriteSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "run"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "greatestFiniteMagnitude"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "5Async17DispatchEventLoopC"
+- !private "5Async19DispatchEventSourceC"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "So14DispatchSourceC"
+- !private "So30DispatchSourceFileSystemObjectP"
+- !private "So25DispatchSourceMachReceiveP"
+- !private "So22DispatchSourceMachSendP"
+- !private "So28DispatchSourceMemoryPressureP"
+- !private "So21DispatchSourceProcessP"
+- !private "So22DispatchSourceProtocolP"
+- !private "So18DispatchSourceReadP"
+- !private "So20DispatchSourceSignalP"
+- !private "So19DispatchSourceTimerP"
+- !private "So25DispatchSourceUserDataAddP"
+- !private "So24DispatchSourceUserDataOrP"
+- !private "So29DispatchSourceUserDataReplaceP"
+- !private "So19DispatchSourceWriteP"
+- !private "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "5Async9EventLoopP"
+- !private "5Async11EventSourceP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "So7RunLoopC"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So5TimerC"
+- "5Async6WorkerP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "fd9eba52954a9c8b8c58ca454f14dd10"

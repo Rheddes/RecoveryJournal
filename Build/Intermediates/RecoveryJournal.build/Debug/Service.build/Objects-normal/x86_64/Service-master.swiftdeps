@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "aaabcb12ab16a2d58db8ea9357fa5f10"
+build_time: [1516827687, 991061000]
+inputs:
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/BasicServiceFactory.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Config.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Container+Service.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Container.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Environment.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/EphemeralContainer.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/EventLoopContainer.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Extendable.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Provider.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Service.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/ServiceCacheable.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/ServiceError.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/ServiceFactory.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/ServiceType.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/Services.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/SubContainer.swift": !dirty [1516825762, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/service.git--3029908809087319447/Sources/Service/TypeServiceFactory.swift": !dirty [1516825762, 0]

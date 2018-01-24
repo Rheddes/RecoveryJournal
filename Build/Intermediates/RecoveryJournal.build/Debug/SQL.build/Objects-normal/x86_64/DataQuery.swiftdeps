@@ -1,0 +1,154 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataQuery"
+- "DataPredicateItem"
+- "DataPredicateGroup"
+- "DataPredicateGroupRelation"
+- "DataOrderBy"
+- "OrderByDirection"
+- "DataComputed"
+provides-nominal:
+- "3SQL9DataQueryV"
+- "3SQL17DataPredicateItemO"
+- "3SQL18DataPredicateGroupV"
+- "3SQL26DataPredicateGroupRelationO"
+- "3SQL11DataOrderByV"
+- "3SQL16OrderByDirectionO"
+- "3SQL12DataComputedV"
+provides-member:
+- ["3SQL9DataQueryV", ""]
+- ["3SQL17DataPredicateItemO", ""]
+- ["3SQL18DataPredicateGroupV", ""]
+- ["3SQL26DataPredicateGroupRelationO", ""]
+- ["3SQL11DataOrderByV", ""]
+- ["3SQL16OrderByDirectionO", ""]
+- ["3SQL12DataComputedV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "DataColumn"
+- "DataComputed"
+- "DataJoin"
+- "DataOrderBy"
+- "DataPredicate"
+- "DataPredicateGroup"
+- "DataPredicateGroupRelation"
+- "DataPredicateItem"
+- "DataQuery"
+- "DataStatement"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "OrderByDirection"
+- "String"
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["3SQL12DataComputedV", "DataColumn"]
+- ["3SQL12DataComputedV", "String"]
+- ["3SQL12DataComputedV", "columns"]
+- ["3SQL12DataComputedV", "function"]
+- ["3SQL12DataComputedV", "init"]
+- ["3SQL12DataComputedV", "key"]
+- ["3SQL11DataOrderByV", "DataColumn"]
+- ["3SQL11DataOrderByV", "OrderByDirection"]
+- ["3SQL11DataOrderByV", "columns"]
+- ["3SQL11DataOrderByV", "direction"]
+- ["3SQL11DataOrderByV", "init"]
+- ["3SQL18DataPredicateGroupV", "DataPredicateGroupRelation"]
+- ["3SQL18DataPredicateGroupV", "DataPredicateItem"]
+- ["3SQL18DataPredicateGroupV", "init"]
+- ["3SQL18DataPredicateGroupV", "predicates"]
+- ["3SQL18DataPredicateGroupV", "relation"]
+- ["3SQL26DataPredicateGroupRelationO", "__derived_enum_equals"]
+- ["3SQL26DataPredicateGroupRelationO", "and"]
+- ["3SQL26DataPredicateGroupRelationO", "deinit"]
+- ["3SQL26DataPredicateGroupRelationO", "hashValue"]
+- ["3SQL26DataPredicateGroupRelationO", "or"]
+- ["3SQL17DataPredicateItemO", "DataPredicate"]
+- ["3SQL17DataPredicateItemO", "DataPredicateGroup"]
+- ["3SQL17DataPredicateItemO", "group"]
+- ["3SQL17DataPredicateItemO", "predicate"]
+- ["3SQL9DataQueryV", "DataColumn"]
+- ["3SQL9DataQueryV", "DataComputed"]
+- ["3SQL9DataQueryV", "DataJoin"]
+- ["3SQL9DataQueryV", "DataOrderBy"]
+- ["3SQL9DataQueryV", "DataPredicateItem"]
+- ["3SQL9DataQueryV", "DataStatement"]
+- ["3SQL9DataQueryV", "Int"]
+- ["3SQL9DataQueryV", "String"]
+- ["3SQL9DataQueryV", "columns"]
+- ["3SQL9DataQueryV", "computed"]
+- ["3SQL9DataQueryV", "init"]
+- ["3SQL9DataQueryV", "joins"]
+- ["3SQL9DataQueryV", "limit"]
+- ["3SQL9DataQueryV", "offset"]
+- ["3SQL9DataQueryV", "orderBys"]
+- ["3SQL9DataQueryV", "predicates"]
+- ["3SQL9DataQueryV", "statement"]
+- ["3SQL9DataQueryV", "table"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EquatableP", "descending"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "descending"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s7NumericP", "hashValue"]
+- ["3SQL16OrderByDirectionO", "__derived_enum_equals"]
+- ["3SQL16OrderByDirectionO", "ascending"]
+- ["3SQL16OrderByDirectionO", "deinit"]
+- ["3SQL16OrderByDirectionO", "descending"]
+- ["3SQL16OrderByDirectionO", "hashValue"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "3SQL12DataComputedV"
+- "3SQL11DataOrderByV"
+- "3SQL18DataPredicateGroupV"
+- "3SQL26DataPredicateGroupRelationO"
+- "3SQL17DataPredicateItemO"
+- "3SQL9DataQueryV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- "3SQL16OrderByDirectionO"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "96cf68b8117522c0795d3d561d50b46c"

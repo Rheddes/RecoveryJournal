@@ -1,0 +1,4 @@
+framework module TCP {
+    header "TCP-Swift.h"
+    requires objc
+}

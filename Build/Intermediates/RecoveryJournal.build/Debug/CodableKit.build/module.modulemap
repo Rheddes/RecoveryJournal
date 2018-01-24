@@ -1,0 +1,4 @@
+framework module CodableKit {
+    header "CodableKit-Swift.h"
+    requires objc
+}

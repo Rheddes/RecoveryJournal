@@ -1,0 +1,4 @@
+framework module AsyncPackageDescription {
+    header "AsyncPackageDescription-Swift.h"
+    requires objc
+}

@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "e01e985ac4f4334625f2c20dd167f7c5"
+build_time: [1516825920, 185604000]
+inputs:
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Byte+Alphabet.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Byte+Control.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Byte+Digit.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Bytes.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Bits/Data+Strings.swift": [1516825761, 0]

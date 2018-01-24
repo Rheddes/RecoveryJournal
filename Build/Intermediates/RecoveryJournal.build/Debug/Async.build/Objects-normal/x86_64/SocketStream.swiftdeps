@@ -1,0 +1,114 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ByteStream"
+- "SocketStream"
+provides-nominal:
+- "5Async10ByteStreamP"
+- "5Async12SocketStreamC"
+provides-member:
+- ["5Async10ByteStreamP", ""]
+- ["5Async12SocketStreamC", ""]
+- ["5Async6SocketP", ""]
+- ["5Async10ByteStreamP", "Input"]
+- ["5Async10ByteStreamP", "Output"]
+- ["5Async6SocketP", "stream"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Async"
+- "ByteStream"
+- "InputEvent"
+- "InputStream"
+- "Socket"
+- "SocketSink"
+- "SocketSource"
+- "SocketStream"
+- "Stream"
+- "UInt8"
+- "UnsafeBufferPointer"
+- "Worker"
+depends-member:
+- ["5Async10ByteStreamP", "Input"]
+- ["5Async10ByteStreamP", "Output"]
+- ["5Async10ByteStreamP", "UInt8"]
+- ["5Async10ByteStreamP", "UnsafeBufferPointer"]
+- !private ["5Async10ByteStreamP", "init"]
+- ["5Async10ByteStreamP", "input"]
+- ["5Async10ByteStreamP", "output"]
+- !private ["5Async10ByteStreamP", "sink"]
+- !private ["5Async10ByteStreamP", "source"]
+- ["5Async10ByteStreamP", ""]
+- !private ["5Async17ConnectionContextP", "output"]
+- ["5Async11InputStreamP", "Input"]
+- ["5Async11InputStreamP", "Output"]
+- ["5Async11InputStreamP", "UInt8"]
+- ["5Async11InputStreamP", "UnsafeBufferPointer"]
+- !private ["5Async11InputStreamP", "init"]
+- ["5Async11InputStreamP", "input"]
+- ["5Async11InputStreamP", "output"]
+- !private ["5Async11InputStreamP", "sink"]
+- !private ["5Async11InputStreamP", "source"]
+- ["5Async11InputStreamP", ""]
+- ["5Async12OutputStreamP", "Input"]
+- ["5Async12OutputStreamP", "Output"]
+- ["5Async12OutputStreamP", "UInt8"]
+- ["5Async12OutputStreamP", "UnsafeBufferPointer"]
+- !private ["5Async12OutputStreamP", "init"]
+- ["5Async12OutputStreamP", "input"]
+- ["5Async12OutputStreamP", "output"]
+- !private ["5Async12OutputStreamP", "sink"]
+- !private ["5Async12OutputStreamP", "source"]
+- ["5Async12OutputStreamP", ""]
+- ["5Async6SocketP", "Self"]
+- ["5Async6SocketP", "SocketStream"]
+- ["5Async6SocketP", "Worker"]
+- !private ["5Async6SocketP", "sink"]
+- !private ["5Async6SocketP", "source"]
+- ["5Async6SocketP", "stream"]
+- !private ["5Async10SocketSinkC", "deinit"]
+- !private ["5Async10SocketSinkC", "input"]
+- !private ["5Async12SocketSourceC", "deinit"]
+- !private ["5Async12SocketSourceC", "output"]
+- ["5Async12SocketStreamC", "Input"]
+- ["5Async12SocketStreamC", "InputEvent"]
+- ["5Async12SocketStreamC", "InputStream"]
+- ["5Async12SocketStreamC", "Output"]
+- ["5Async12SocketStreamC", "Socket"]
+- ["5Async12SocketStreamC", "SocketSink"]
+- ["5Async12SocketStreamC", "SocketSource"]
+- ["5Async12SocketStreamC", "UInt8"]
+- ["5Async12SocketStreamC", "UnsafeBufferPointer"]
+- ["5Async12SocketStreamC", "Worker"]
+- ["5Async12SocketStreamC", "deinit"]
+- ["5Async12SocketStreamC", "init"]
+- ["5Async12SocketStreamC", "input"]
+- ["5Async12SocketStreamC", "output"]
+- !private ["5Async12SocketStreamC", "sink"]
+- !private ["5Async12SocketStreamC", "source"]
+depends-nominal:
+- "5Async10ByteStreamP"
+- !private "5Async17ConnectionContextP"
+- "5Async11InputStreamP"
+- "5Async12OutputStreamP"
+- "5Async6SocketP"
+- !private "5Async10SocketSinkC"
+- !private "5Async12SocketSourceC"
+- "5Async12SocketStreamC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ec59dc3bdf096a9e191a82c6771fd453"

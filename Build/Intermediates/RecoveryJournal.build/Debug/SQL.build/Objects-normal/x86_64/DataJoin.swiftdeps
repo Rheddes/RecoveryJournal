@@ -1,0 +1,27 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataJoin"
+provides-nominal:
+- "3SQL8DataJoinV"
+provides-member:
+- ["3SQL8DataJoinV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DataColumn"
+- "DataJoin"
+- "DataJoinMethod"
+depends-member:
+- ["3SQL8DataJoinV", "DataColumn"]
+- ["3SQL8DataJoinV", "DataJoinMethod"]
+- ["3SQL8DataJoinV", "foreign"]
+- ["3SQL8DataJoinV", "init"]
+- ["3SQL8DataJoinV", "local"]
+- ["3SQL8DataJoinV", "method"]
+depends-nominal:
+- "3SQL8DataJoinV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "cf33e6f33141f46ef7c55ee3061d6dd4"

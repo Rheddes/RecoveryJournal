@@ -1,0 +1,43 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataPredicate"
+- "DataPredicateValue"
+provides-nominal:
+- "3SQL13DataPredicateV"
+- "3SQL18DataPredicateValueO"
+provides-member:
+- ["3SQL13DataPredicateV", ""]
+- ["3SQL18DataPredicateValueO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DataColumn"
+- "DataPredicate"
+- "DataPredicateComparison"
+- "DataPredicateValue"
+- "DataQuery"
+- "Int"
+depends-member:
+- ["3SQL13DataPredicateV", "DataColumn"]
+- ["3SQL13DataPredicateV", "DataPredicateComparison"]
+- ["3SQL13DataPredicateV", "DataPredicateValue"]
+- ["3SQL13DataPredicateV", "column"]
+- ["3SQL13DataPredicateV", "comparison"]
+- ["3SQL13DataPredicateV", "init"]
+- ["3SQL13DataPredicateV", "value"]
+- ["3SQL18DataPredicateValueO", "DataColumn"]
+- ["3SQL18DataPredicateValueO", "DataQuery"]
+- ["3SQL18DataPredicateValueO", "Int"]
+- ["3SQL18DataPredicateValueO", "column"]
+- ["3SQL18DataPredicateValueO", "none"]
+- ["3SQL18DataPredicateValueO", "placeholder"]
+- ["3SQL18DataPredicateValueO", "placeholderArray"]
+- ["3SQL18DataPredicateValueO", "subquery"]
+depends-nominal:
+- "3SQL13DataPredicateV"
+- "3SQL18DataPredicateValueO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "31b6ee1329cbbde6b7baa6dcfe4fde17"

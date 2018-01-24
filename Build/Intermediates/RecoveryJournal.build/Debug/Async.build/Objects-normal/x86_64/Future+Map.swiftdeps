@@ -1,0 +1,177 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "??"
+- "map"
+- "map"
+- "flatMap"
+- "flatMap"
+provides-nominal:
+provides-member:
+- ["5Async6FutureV", ""]
+- ["Sa", ""]
+- ["5Async6FutureV", "map"]
+- ["5Async6FutureV", "flatMap"]
+- ["Sa", "map"]
+- ["Sa", "flatMap"]
+- ["Sa", "map"]
+- ["Sa", "flatMap"]
+- ["5Async6FutureV", "catchMap"]
+- ["5Async6FutureV", "catchFlatMap"]
+provides-dynamic-lookup:
+depends-top-level:
+- "??"
+- "Array"
+- "Error"
+- "Future"
+- "FutureType"
+- !private "Promise"
+- "Signal"
+- "flatMap"
+- "map"
+depends-member:
+- ["Sa", "Element"]
+- ["Sa", "Future"]
+- ["Sa", "FutureType"]
+- ["Sa", "Signal"]
+- ["Sa", "flatMap"]
+- !private ["Sa", "flatten"]
+- ["Sa", "map"]
+- ["s23BidirectionalCollectionP", "FutureType"]
+- ["s23BidirectionalCollectionP", "Signal"]
+- !private ["s23BidirectionalCollectionP", "flatten"]
+- ["s7CVarArgP", "FutureType"]
+- ["s7CVarArgP", "Signal"]
+- !private ["s7CVarArgP", "flatten"]
+- ["s10CollectionP", "FutureType"]
+- ["s10CollectionP", "Signal"]
+- !private ["s10CollectionP", "flatten"]
+- ["s28CustomDebugStringConvertibleP", "FutureType"]
+- ["s28CustomDebugStringConvertibleP", "Signal"]
+- !private ["s28CustomDebugStringConvertibleP", "flatten"]
+- ["s17CustomReflectableP", "FutureType"]
+- ["s17CustomReflectableP", "Signal"]
+- !private ["s17CustomReflectableP", "flatten"]
+- ["s23CustomStringConvertibleP", "FutureType"]
+- ["s23CustomStringConvertibleP", "Signal"]
+- !private ["s23CustomStringConvertibleP", "flatten"]
+- ["s9DecodableP", "FutureType"]
+- ["s9DecodableP", "Signal"]
+- !private ["s9DecodableP", "flatten"]
+- ["s9EncodableP", "FutureType"]
+- ["s9EncodableP", "Signal"]
+- !private ["s9EncodableP", "flatten"]
+- ["s25ExpressibleByArrayLiteralP", "FutureType"]
+- ["s25ExpressibleByArrayLiteralP", "Signal"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatten"]
+- ["5Async6FutureV", "Error"]
+- ["5Async6FutureV", "Expectation"]
+- ["5Async6FutureV", "Future"]
+- !private ["5Async6FutureV", "Promise"]
+- !private ["5Async6FutureV", "addAwaiter"]
+- !private ["5Async6FutureV", "catch"]
+- ["5Async6FutureV", "catchFlatMap"]
+- ["5Async6FutureV", "catchMap"]
+- !private ["5Async6FutureV", "chain"]
+- !private ["5Async6FutureV", "deinit"]
+- !private ["5Async6FutureV", "do"]
+- ["5Async6FutureV", "flatMap"]
+- ["5Async6FutureV", "map"]
+- !private ["5Async12FutureResultO", "error"]
+- !private ["5Async12FutureResultO", "expectation"]
+- !private ["5Async10FutureTypeP", "Expectation"]
+- !private ["5Async10FutureTypeP", "Promise"]
+- !private ["5Async10FutureTypeP", "addAwaiter"]
+- !private ["5Async10FutureTypeP", "catch"]
+- !private ["5Async10FutureTypeP", "chain"]
+- !private ["5Async10FutureTypeP", "do"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- ["s17MutableCollectionP", "FutureType"]
+- ["s17MutableCollectionP", "Signal"]
+- !private ["s17MutableCollectionP", "flatten"]
+- !private ["5Async7PromiseC", "complete"]
+- !private ["5Async7PromiseC", "fail"]
+- !private ["5Async7PromiseC", "future"]
+- !private ["5Async7PromiseC", "init"]
+- ["s22RandomAccessCollectionP", "FutureType"]
+- ["s22RandomAccessCollectionP", "Signal"]
+- !private ["s22RandomAccessCollectionP", "flatten"]
+- ["s26RangeReplaceableCollectionP", "FutureType"]
+- ["s26RangeReplaceableCollectionP", "Signal"]
+- !private ["s26RangeReplaceableCollectionP", "flatten"]
+- ["s8SequenceP", "FutureType"]
+- ["s8SequenceP", "Signal"]
+- !private ["s8SequenceP", "flatten"]
+- ["s14_ArrayProtocolP", "FutureType"]
+- ["s14_ArrayProtocolP", "Signal"]
+- !private ["s14_ArrayProtocolP", "flatten"]
+- ["s23_BidirectionalIndexableP", "FutureType"]
+- ["s23_BidirectionalIndexableP", "Signal"]
+- !private ["s23_BidirectionalIndexableP", "flatten"]
+- ["s24_DestructorSafeContainerP", "FutureType"]
+- ["s24_DestructorSafeContainerP", "Signal"]
+- !private ["s24_DestructorSafeContainerP", "flatten"]
+- ["s10_IndexableP", "FutureType"]
+- ["s10_IndexableP", "Signal"]
+- !private ["s10_IndexableP", "flatten"]
+- ["s14_IndexableBaseP", "FutureType"]
+- ["s14_IndexableBaseP", "Signal"]
+- !private ["s14_IndexableBaseP", "flatten"]
+- ["s17_MutableIndexableP", "FutureType"]
+- ["s17_MutableIndexableP", "Signal"]
+- !private ["s17_MutableIndexableP", "flatten"]
+- ["s21_ObjectiveCBridgeableP", "FutureType"]
+- ["s21_ObjectiveCBridgeableP", "Signal"]
+- !private ["s21_ObjectiveCBridgeableP", "flatten"]
+- ["s22_RandomAccessIndexableP", "FutureType"]
+- ["s22_RandomAccessIndexableP", "Signal"]
+- !private ["s22_RandomAccessIndexableP", "flatten"]
+- ["s26_RangeReplaceableIndexableP", "FutureType"]
+- ["s26_RangeReplaceableIndexableP", "Signal"]
+- !private ["s26_RangeReplaceableIndexableP", "flatten"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s25ExpressibleByArrayLiteralP"
+- "5Async6FutureV"
+- !private "5Async12FutureResultO"
+- !private "5Async10FutureTypeP"
+- "s17MutableCollectionP"
+- !private "5Async7PromiseC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s24_DestructorSafeContainerP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a9636417831e0dc739a504aa65af8a35"

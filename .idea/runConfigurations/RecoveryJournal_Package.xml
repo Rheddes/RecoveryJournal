@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="RecoveryJournal-Package" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RecoveryJournal" TARGET_NAME="Run" CONFIG_NAME="Debug" SCHEME_NAME="RecoveryJournal-Package" MAKE_ACTIVE="TRUE">
+    <envs />
+    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+      <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+    </EXTENSION>
+    <method />
+  </configuration>
+</component>

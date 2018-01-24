@@ -1,0 +1,4 @@
+framework module LeafPackageDescription {
+    header "LeafPackageDescription-Swift.h"
+    requires objc
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "66c9feef1ba028d1981b4c4203be2446"
+build_time: [1516825934, 846567000]
+inputs:
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/Debuggable.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/Demangler.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/Helpable.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/Identifiable.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/StackTrace.swift": [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/Debugging/Traceable.swift": [1516825761, 0]

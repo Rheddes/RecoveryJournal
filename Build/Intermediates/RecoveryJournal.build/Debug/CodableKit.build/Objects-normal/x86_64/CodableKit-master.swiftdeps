@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "16f9250ea67f3f4dd6abc539b855ab57"
+build_time: [1516827676, 166411000]
+inputs:
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/DecoderExtensions.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/DecoderHelper.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/EncoderExtensions.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/File.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/FutureEncoder.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/Key/CodingKeyCollector.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/Key/KeyStringDecoder.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/KeyPreEncoder.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/StreamEncoder.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/String+Convert.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/StringKey.swift": !dirty [1516825761, 0]
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/CodableKit/UnsupportedEncodingContainer.swift": !dirty [1516825761, 0]

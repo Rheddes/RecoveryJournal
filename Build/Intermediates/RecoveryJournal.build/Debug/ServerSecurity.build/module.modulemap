@@ -1,0 +1,4 @@
+framework module ServerSecurity {
+    header "ServerSecurity-Swift.h"
+    requires objc
+}

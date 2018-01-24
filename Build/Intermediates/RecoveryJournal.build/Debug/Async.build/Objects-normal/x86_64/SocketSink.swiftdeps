@@ -1,0 +1,273 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketSink"
+provides-nominal:
+- "5Async10SocketSinkC"
+provides-member:
+- ["5Async10SocketSinkC", ""]
+- ["5Async6SocketP", ""]
+- ["5Async6SocketP", "sink"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "-"
+- !private "=="
+- "AssignmentPrecedence"
+- "Async"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ConnectionContext"
+- "EventLoop"
+- "EventSource"
+- "InputEvent"
+- "InputStream"
+- "Socket"
+- "SocketSink"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeBufferPointer"
+- "Worker"
+- !private "fatalError"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "init"]
+- !private ["5Async17ConnectionContextP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "advanced"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "suspended"]
+- !private ["5Async9EventLoopP", "onWritable"]
+- !private ["5Async11EventSourceP", "cancel"]
+- !private ["5Async11EventSourceP", "resume"]
+- !private ["5Async11EventSourceP", "state"]
+- !private ["5Async11EventSourceP", "suspend"]
+- ["5Async16EventSourceStateO", "suspended"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "suspended"]
+- ["5Async10InputEventO", "close"]
+- ["5Async10InputEventO", "connect"]
+- ["5Async10InputEventO", "error"]
+- ["5Async10InputEventO", "next"]
+- ["5Async11InputStreamP", "Input"]
+- !private ["5Async11InputStreamP", "UnsafeBufferPointer"]
+- !private ["5Async11InputStreamP", "close"]
+- !private ["5Async11InputStreamP", "eventLoop"]
+- !private ["5Async11InputStreamP", "fatalError"]
+- !private ["5Async11InputStreamP", "init"]
+- ["5Async11InputStreamP", "input"]
+- !private ["5Async11InputStreamP", "inputBuffer"]
+- !private ["5Async11InputStreamP", "isAwaitingUpstream"]
+- !private ["5Async11InputStreamP", "isClosed"]
+- !private ["5Async11InputStreamP", "socket"]
+- !private ["5Async11InputStreamP", "upstream"]
+- !private ["5Async11InputStreamP", "writeData"]
+- !private ["5Async11InputStreamP", "writeSource"]
+- !private ["5Async11InputStreamP", "writeSourceSignal"]
+- ["5Async11InputStreamP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- ["5Async6SocketP", "Self"]
+- ["5Async6SocketP", "SocketSink"]
+- ["5Async6SocketP", "Worker"]
+- !private ["5Async6SocketP", "close"]
+- !private ["5Async6SocketP", "descriptor"]
+- !private ["5Async6SocketP", "isPrepared"]
+- !private ["5Async6SocketP", "prepareSocket"]
+- ["5Async6SocketP", "sink"]
+- !private ["5Async6SocketP", "write"]
+- ["5Async10SocketSinkC", "Bool"]
+- ["5Async10SocketSinkC", "ConnectionContext"]
+- ["5Async10SocketSinkC", "EventLoop"]
+- ["5Async10SocketSinkC", "EventSource"]
+- ["5Async10SocketSinkC", "Input"]
+- ["5Async10SocketSinkC", "InputEvent"]
+- ["5Async10SocketSinkC", "Socket"]
+- ["5Async10SocketSinkC", "UInt8"]
+- ["5Async10SocketSinkC", "UnsafeBufferPointer"]
+- ["5Async10SocketSinkC", "Worker"]
+- ["5Async10SocketSinkC", "close"]
+- ["5Async10SocketSinkC", "deinit"]
+- !private ["5Async10SocketSinkC", "eventLoop"]
+- !private ["5Async10SocketSinkC", "fatalError"]
+- ["5Async10SocketSinkC", "init"]
+- ["5Async10SocketSinkC", "input"]
+- !private ["5Async10SocketSinkC", "inputBuffer"]
+- !private ["5Async10SocketSinkC", "isAwaitingUpstream"]
+- !private ["5Async10SocketSinkC", "isClosed"]
+- ["5Async10SocketSinkC", "socket"]
+- !private ["5Async10SocketSinkC", "upstream"]
+- !private ["5Async10SocketSinkC", "writeData"]
+- !private ["5Async10SocketSinkC", "writeSource"]
+- !private ["5Async10SocketSinkC", "writeSourceSignal"]
+- !private ["5Async17SocketWriteStatusO", "wouldBlock"]
+- !private ["5Async17SocketWriteStatusO", "wrote"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "count"]
+- !private ["SR", "init"]
+- !private ["SP", "advanced"]
+- !private ["5Async6WorkerP", "eventLoop"]
+- !private ["5Async6WorkerP", "onWritable"]
+- !private ["s23_BidirectionalIndexableP", "baseAddress"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "baseAddress"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "baseAddress"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s22_RandomAccessIndexableP", "baseAddress"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "advanced"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "5Async17ConnectionContextP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "5Async9EventLoopP"
+- !private "5Async11EventSourceP"
+- "5Async16EventSourceStateO"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "5Async10InputEventO"
+- "5Async11InputStreamP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "5Async6SocketP"
+- "5Async10SocketSinkC"
+- !private "5Async17SocketWriteStatusO"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "SR"
+- !private "SP"
+- !private "5Async6WorkerP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "247f3bcd0c4b9b7e4630c50d3abd0e16"

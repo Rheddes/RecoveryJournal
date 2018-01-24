@@ -1,0 +1,69 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Socket"
+- "SocketReadStatus"
+- "SocketWriteStatus"
+provides-nominal:
+- "5Async6SocketP"
+- "5Async16SocketReadStatusO"
+- "5Async17SocketWriteStatusO"
+provides-member:
+- ["5Async6SocketP", ""]
+- ["5Async16SocketReadStatusO", ""]
+- ["5Async17SocketWriteStatusO", ""]
+- ["5Async6SocketP", "isPrepared"]
+- ["5Async6SocketP", "prepareSocket"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- "Int"
+- "Int32"
+- "Socket"
+- "SocketReadStatus"
+- "SocketWriteStatus"
+- "UInt8"
+- "UnsafeBufferPointer"
+- "UnsafeMutableBufferPointer"
+depends-member:
+- ["5Async6SocketP", "Bool"]
+- ["5Async6SocketP", "Int32"]
+- ["5Async6SocketP", "SocketReadStatus"]
+- ["5Async6SocketP", "SocketWriteStatus"]
+- ["5Async6SocketP", "UInt8"]
+- ["5Async6SocketP", "UnsafeBufferPointer"]
+- ["5Async6SocketP", "UnsafeMutableBufferPointer"]
+- ["5Async6SocketP", "close"]
+- ["5Async6SocketP", "descriptor"]
+- ["5Async6SocketP", "isPrepared"]
+- ["5Async6SocketP", "prepareSocket"]
+- ["5Async6SocketP", "read"]
+- ["5Async6SocketP", "write"]
+- ["5Async16SocketReadStatusO", "Int"]
+- ["5Async16SocketReadStatusO", "read"]
+- ["5Async16SocketReadStatusO", "wouldBlock"]
+- ["5Async17SocketWriteStatusO", "Int"]
+- ["5Async17SocketWriteStatusO", "wouldBlock"]
+- ["5Async17SocketWriteStatusO", "wrote"]
+depends-nominal:
+- "5Async6SocketP"
+- "5Async16SocketReadStatusO"
+- "5Async17SocketWriteStatusO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d7f646a2b8a1aea94f60f739d4b55350"

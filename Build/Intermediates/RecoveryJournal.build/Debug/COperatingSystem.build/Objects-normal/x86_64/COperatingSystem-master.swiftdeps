@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "eee6515265c26afdfed87069b9088344"
+build_time: [1516825929, 860882000]
+inputs:
+  "/Users/Rens/Development/RecoveryJournal/.build/checkouts/core.git-9210800844849382486/Sources/COperatingSystem/libc.swift": [1516825761, 0]
